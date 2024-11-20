@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        tfoot{
+            background-color: aqua;
+        }
+    </style>
+
+    <!-- Acima realizamos as bordas, também pode utilizar atributos nas nossas Tags.-->
+
+</head>
+
+<body>
+
+    <h1>Tabela</h1>
+
+
+    <table>
+
+
+        <thead>
+            <tr>
+                <th colspan="1">Produto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+                <th>Black Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Produto1</td>
+                <td>2</td>
+                <td>R$ 5,00</td>
+                <td rowspan="2">Sim</td>
+
+                <!-- Acabei de relizar a ocupação de duas linha com (rowspan="2")em Black Friday "sim" -->
+            </tr>
+            <tr>
+                <td>Produto2</td>
+                <td>5</td>
+                <td>R$ 10,00</td>
+
+            </tr>
+            <tr>
+                <td>Produto3</td>
+                <td>3</td>
+                <td>R$ 15,00</td>
+                <td>Não</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>R$ 30,00</td>
+            </tr>
+
+        </tfoot>
+
+        <!-- <tfoot> é um rodapé da tabela -->
+
+
+
+
+    </table>
+
+
+    <!-- Em 1º lugar <table> ela serve para englobar toda estrutura da tabela. 2° Dentro vai o cabeçalho  <thead> ela serve para organiza quais serão a representações da colunas. 3°   <tr> representa um linha unica linha na tabela. 4° <th> é responsavél por cada coluna do cabeçalho, ele serve para ter os atributos as colunas. 5º o <tbody> é o corpo dos dados leg    itimo dos dados dentro dela vai a <tr> vai ter uma unica linha <td> teybo data -->
+
+    <!-- um deste são: O atributo "colspan" *****serve para expandir uma coluna em uma tabela*****, fundindo a célula atual com as próximas células vizinhas à direita. O valor do atributo deve ser um número inteiro não negativo, e o padrão é 1. 
+        ------Valores acima de 1000 são considerados incorretos e serão modificados para o valor padrão. 
+   Por exemplo, para que uma coluna se estenda por duas células, pode-se usar o atributo colspan="2". 
+   Para que uma célula ocupe mais de uma linha, pode-se usar o atributo rowspan. Os dois atributos podem ser misturados para que uma célula ocupe mais de uma linha e mais de uma coluna-->
+    -->
+
+</body>
+
+</html>
