@@ -1,0 +1,44 @@
+*/* File: style.css */
+/* This file contains the styles for the HTML document */   
+    
+
+.ListadeAlimentos {
+    margin-block-end: auto;
+    font-family: Arial, sans-serif;
+    background-color: #d0dadc;
+    font-size: 5vw;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.ListadeFrutas {
+    background-color: #4fdd28;
+    font-size: 5vw;
+    font-weight: lighter;
+    margin-bottom: 10vh;
+}
+
+.ListadeLegumes {
+ 
+    background-color: #4fdd28;
+    font-size: 5vw;
+    font-weight: lighter;
+    margin-bottom: 10vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #aea9a9;
+    text-align: left;
+}
+
+th {
+    background-color: #38676b;
+}
+
